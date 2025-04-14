@@ -7,6 +7,7 @@
     }
     body{
         position: absolute;
+        
     }
   
     .body2{
@@ -28,7 +29,7 @@
       font-size: 0.9rem;
       z-index: 100;
     }
-    .second{
+    .head{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -41,7 +42,7 @@
       font-family: "Afacad Flux";
      
     }
-    .logo{
+    .left-logo{
       display: flex;
       flex-direction: column;
       font-family: "Rock Salt", cursive;
@@ -66,6 +67,10 @@
      color: white;
      font-size: 18px;
      font-weight: 500;
+     cursor: pointer;
+    }
+    .menu-item:hover{
+      text-decoration: underline;
     }
     .right{
       display: flex;
@@ -74,7 +79,13 @@
     .ABOUT-US{
       padding-right: 25px;
       font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
     }
+    .ABOUT-US:hover{
+      text-decoration: underline;
+    }
+
     .expect-call-btn {
       background-color: rgba(233, 196, 106, 1);
       border: none;
@@ -83,38 +94,40 @@
       font-weight: bold;
       cursor: pointer;
       box-shadow: 0px 0px 15.6px rgba(0, 0, 0, 0.25);
-
+      margin-left: 50px;
+      transition: opacity 0.35s;
     }
-    .first-impession{
+    .expect-call-btn:hover{
+      opacity: 0.8;;
+    }
+    .container1{
       display: flex;
       flex-direction: row;
       margin-top: 120px;
      
       
     }
-    .backpain{
+    .container1-background{
         background: radial-gradient(
         circle at center,
         rgba(245, 227, 183, 0.6) 0%,
         white 40%,
         white 60%,
-        rgba(245, 227, 183, 0.5) 90%
-);
-
-
+        rgba(245, 227, 183, 0.5) 90%);
+        padding-bottom: 70px;
     }
-    .flex-2{
+    .container1-flex1{
       margin-left: 130px;
       margin-top: -16px;
     }
-    .font{
+    .container1-font{
       font-family: "Afacad Flux", sans-serif;
       font-size: 70px;
        color: rgb(231, 111, 81);
       font-weight: bold;
       
     }
-    .explore-btn{
+    .container1-button{
       padding: 8px 14px;
       background-color: #f4b400;
       border: none;
@@ -125,21 +138,25 @@
       color: rgb(38, 70, 83);
       margin-top: 55px;
       box-shadow: 2px 0px 15.3px rgba(0, 0, 0, 0.25);
-
+      transition: opacity 0.35s;
+    }
+    .container1-button:hover{
+      opacity: 0.8;;
     }
     
-    .services {
-      background: linear-gradient(to bottom, rgb(225, 195, 109), white);
+    .container2 {
+      background: linear-gradient(to bottom, rgb(225, 195, 109), rgb(233, 196, 106));
       text-align: center;
-      height: 3100px;
+      height: 3090px;
+      width: 1530px;
       padding-top: 20px;
     }
-    .services h1{
+    .container2 h1{
       color: rgb(63, 90, 99);
       line-height: 50px;
       font-size: 15px;
     }
-    .services h2 {
+    .container2 h2 {
       font-size: 18px;
       color: rgb(233, 120, 91);
       width: 300px;
@@ -147,7 +164,7 @@
       line-height: 32px;
       
     }
-    .services .cards {
+    .container2 .cards {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -168,9 +185,6 @@
       box-shadow: 0px 0px 20.7px rgba(0, 0, 0, 0.25);
       padding-top: 10px;
       text-align: left;
-      
-      
-      
     }
     .card-heading{
         font-size: 12px;
@@ -190,14 +204,16 @@
         color: rgb(233, 123, 94);
     }
 
-    .background{
+    .background-on-container2{
         background-color: rgb(249, 239, 215);
         padding: 30px 30px;
-        margin: 24px;
+        margin: auto;
         border-radius: 12px;
         border: 2px solid white;
         height: 650px;
         border: 4px solid white;
+        width: 1450px;
+        margin-top: 30px;
         
     }
     .heading-4{
@@ -219,7 +235,7 @@
         
     }
     
-    .part2{
+    .conatiner2a{
         position: relative;
         margin-bottom: 20px;
     }
@@ -279,7 +295,7 @@
         top: 133px;  
         right:535px;
     }
-    .part3{
+    .conatiner2b{
       display: flex;
       flex-direction: column;
       margin-top: 60px;
@@ -333,14 +349,22 @@
         font-weight: 600;
         color: rgb(155, 155, 155);
     }
-    .part4 button{
+    .part4b button{
         width: 184px;
         height: 41px;
         border-radius: 7px;
+        color: rgb(38, 70, 83);
         background-color:rgba(233, 196, 106, 1);
-        box-shadow: 0px 0px 15.3px rgba(0,0,0,0.25);
+        transition:box-shadow 0.25s ;
         border: none;
         margin-top: 20px;
+        cursor: pointer;
+        font-weight: 800;
+        font-size: 18px;
+        font-family:"Afacad Flux";
+    }
+    .part4b button:hover{
+      box-shadow: 0px 0px 15.3px rgba(0,0,0,0.25);
     }
     .part4 img{
         padding: 20px;
@@ -363,6 +387,7 @@
         margin-left: -30px;
         text-align: left;
         font-size: 20px;
+        cursor: pointer;
     }
     .flex-coloum strong{
         font-size: 22px;
