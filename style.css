@@ -147,7 +147,7 @@
     .container2 {
       background: linear-gradient(to bottom, rgb(225, 195, 109), rgb(233, 196, 106));
       text-align: center;
-      height: 3090px;
+      height: 3300px;
       width: 1530px;
       padding-top: 20px;
     }
@@ -210,7 +210,7 @@
         margin: auto;
         border-radius: 12px;
         border: 2px solid white;
-        height: 650px;
+        height: 782px;
         border: 4px solid white;
         width: 1450px;
         margin-top: 30px;
@@ -243,15 +243,13 @@
         position: absolute;
     }
     .thinking-box1{
-      width: 380px;
-      top: 100px;
+      top: 70px;
       left: 260px;
         
     }
     .thinking-box2{
-      width: 380px;
-      top: 250px;
-      left:600px;
+      top: 260px;
+      right:200px;
     }
     .bd1{
       left: 40px;
@@ -259,8 +257,8 @@
       top:150px ;
     }
     .bd2{
-      top: 100px;  
-      left:800px;
+      top: 50px;  
+      right:380px;
     }
     .bd3{
       left: 30px;
@@ -271,13 +269,13 @@
       top:340px ;
     }
     .bd5{
-      top: 440px;
-      right: 340px;
+      top:490px;
+      right: 150px;
         
     }
     .bd6{
-      top: 290px;
-      left: 210px;
+      top: 317px;
+      left: 236px;
     }
     .bd7{
       right: 70px;
@@ -288,12 +286,12 @@
 
     }
     .bd9{
-        top: 127px;  
-        right:542px;
+        top: 80px;  
+        right:413px;
     }
     .bd10{
-        top: 133px;  
-        right:535px;
+        top: 88px;  
+        right:408px;
     }
     .conatiner2b{
       display: flex;
