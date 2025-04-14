@@ -1,0 +1,378 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body{
+        position: absolute;
+    }
+  
+    .body2{
+      padding-top: 34px;
+    }
+    .email-us{
+      margin-left: 20px;
+    }
+    .top-bar {
+      background-color: #1e2e33;
+      color: white;
+      padding: 0.5rem 2rem;
+      height: 35px;
+      display: flex;
+      justify-content:flex-end;
+      align-items:center;
+      position: fixed;
+      width: 100%;
+      font-size: 0.9rem;
+      z-index: 100;
+    }
+    .second{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 20px;
+      font-size: 12px;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: "Afacad Flux";
+     
+    }
+    .logo{
+      display: flex;
+      flex-direction: column;
+      font-family: "Rock Salt", cursive;
+      font-size: 22px;
+      color:rgba(38, 70, 83, 1);
+      
+    }
+    .center{
+      display: flex;
+      background-color: rgb(38, 70, 83);
+      margin-left: 30px;
+      padding: 5px 35px;
+      border-radius: 12px;
+      justify-content: space-between;
+      width: 465px;
+      height: 40px;
+      align-items: center;
+      box-shadow: 0px 0px 26.6px rgba(0, 0, 0, 0.25);
+      
+    }
+    .menu-item{
+     color: white;
+     font-size: 18px;
+     font-weight: 500;
+    }
+    .right{
+      display: flex;
+      align-items: center;
+    }
+    .ABOUT-US{
+      padding-right: 25px;
+      font-size: 16px;
+    }
+    .expect-call-btn {
+      background-color: rgba(233, 196, 106, 1);
+      border: none;
+      border-radius: 8px;
+      padding: 9px 36px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 15.6px rgba(0, 0, 0, 0.25);
+
+    }
+    .first-impession{
+      display: flex;
+      flex-direction: row;
+      margin-top: 120px;
+     
+      
+    }
+    .backpain{
+        background: radial-gradient(
+        circle at center,
+        rgba(245, 227, 183, 0.6) 0%,
+        white 40%,
+        white 60%,
+        rgba(245, 227, 183, 0.5) 90%
+);
+
+
+    }
+    .flex-2{
+      margin-left: 130px;
+      margin-top: -16px;
+    }
+    .font{
+      font-family: "Afacad Flux", sans-serif;
+      font-size: 70px;
+       color: rgb(231, 111, 81);
+      font-weight: bold;
+      
+    }
+    .explore-btn{
+      padding: 8px 14px;
+      background-color: #f4b400;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 20px;
+      color: rgb(38, 70, 83);
+      margin-top: 55px;
+      box-shadow: 2px 0px 15.3px rgba(0, 0, 0, 0.25);
+
+    }
+    
+    .services {
+      background: linear-gradient(to bottom, rgb(225, 195, 109), white);
+      text-align: center;
+      height: 3100px;
+      padding-top: 20px;
+    }
+    .services h1{
+      color: rgb(63, 90, 99);
+      line-height: 50px;
+      font-size: 15px;
+    }
+    .services h2 {
+      font-size: 18px;
+      color: rgb(233, 120, 91);
+      width: 300px;
+      margin: auto;
+      line-height: 32px;
+      
+    }
+    .services .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      width: 220px;
+      height: 190px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-left: 80px;
+      margin-right: 80px;
+      background-color: rgb(226, 218, 190);
+      border: 3px solid white;
+      box-shadow: 0px 0px 20.7px rgba(0, 0, 0, 0.25);
+      padding-top: 10px;
+      text-align: left;
+      
+      
+      
+    }
+    .card-heading{
+        font-size: 12px;
+        text-align: left;
+        margin-left: 15px;
+        line-height: 30px;
+        font-family: "Afacad Flux";
+        font-weight: bold;
+        color: rgb(68, 94, 102);
+    }
+    .card-body{
+        font-size: 11px;
+        width:200px ;
+        text-align: left;
+        margin-left: 15px;
+        font-family: "Afacad Flux";
+        color: rgb(233, 123, 94);
+    }
+
+    .background{
+        background-color: rgb(249, 239, 215);
+        padding: 30px 30px;
+        margin: 24px;
+        border-radius: 12px;
+        border: 2px solid white;
+        height: 650px;
+        border: 4px solid white;
+        
+    }
+    .heading-4{
+        display: flex;
+        
+    }
+    .heading-4a{
+       
+        padding: 3px 10px;
+        border-radius: 18px;
+        background-color: rgb(233, 196, 106);
+        font-family: "Afacad Flux";
+        font-size: 18px;
+        box-shadow: 0px -4px 4px  rgba(0,0,0,0.5);
+        font-weight:600;
+        width: 349px;
+        height: 50px;
+        padding-top: 10px;
+        
+    }
+    
+    .part2{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .bd8,.bd7,.thinking-box2,.thinking-box1,.bd1,.bd2,.bd3,.bd4,.bd5,.bd6,.bd9,.bd10{
+        position: absolute;
+    }
+    .thinking-box1{
+      width: 380px;
+      top: 100px;
+      left: 260px;
+        
+    }
+    .thinking-box2{
+      width: 380px;
+      top: 250px;
+      left:600px;
+    }
+    .bd1{
+      left: 40px;
+      
+      top:150px ;
+    }
+    .bd2{
+      top: 100px;  
+      left:800px;
+    }
+    .bd3{
+      left: 30px;
+      top:400px ;
+    }
+    .bd4{
+      left: 410px;
+      top:340px ;
+    }
+    .bd5{
+      top: 440px;
+      right: 340px;
+        
+    }
+    .bd6{
+      top: 290px;
+      left: 210px;
+    }
+    .bd7{
+      right: 70px;
+      top: 230px;
+    }
+    .bd8{
+      right: 70px;
+
+    }
+    .bd9{
+        top: 127px;  
+        right:542px;
+    }
+    .bd10{
+        top: 133px;  
+        right:535px;
+    }
+    .part3{
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+    }
+    .part3a{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-left: 40px;
+      align-items: center;
+      position: relative;
+    }
+    .part3a p{
+      margin-bottom: 40px;
+      color: rgb(38, 70, 83);
+      font-family: "Afacad Flux";
+      font-weight: 600;
+      font-size: 20px;
+    }
+    .part3b{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: rgb(38, 70, 83);
+      padding: 20px 0px;
+      color: white;
+    }
+    .part4{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .part4b{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        
+    }
+    input{
+        margin-bottom: 25px;
+        font-size: 20px;
+        border: none;
+        padding:8px 16px;
+        margin-top: 25px;
+        width: 400px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 8px;
+        font-weight: 600;
+        color: rgb(155, 155, 155);
+    }
+    .part4 button{
+        width: 184px;
+        height: 41px;
+        border-radius: 7px;
+        background-color:rgba(233, 196, 106, 1);
+        box-shadow: 0px 0px 15.3px rgba(0,0,0,0.25);
+        border: none;
+        margin-top: 20px;
+    }
+    .part4 img{
+        padding: 20px;
+    }
+    .part4g{
+        border-right: 2px solid rgb(38, 70, 83) ;
+        height: 250px;
+        margin-top: 20px;
+        padding-right: 70px;
+        padding-top: 20px;
+    }
+    .flex-coloum{
+        display: flex;
+        flex-direction: column;
+        color: rgb(38, 70, 83);
+        margin-top: 20px;
+    }
+    .flex-coloum div{
+        padding: 7px 0px;
+        margin-left: -30px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .flex-coloum strong{
+        font-size: 22px;
+        text-align: left;
+        margin-left: -30px;
+    }
+    .footer {
+        background: rgb(38, 70, 83);
+        color: #fff;
+        text-align: center;
+        padding: 7px 0px;
+    }
+      
